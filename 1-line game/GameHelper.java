@@ -1,6 +1,7 @@
 import java.io.*;
 
 public class GameHelper {
+
     public String getUserInput(String prompt) {
         String inputLine = null;
         System.out.print(prompt + " ");
@@ -15,4 +16,5 @@ public class GameHelper {
             }
         return inputLine;
     }
+
 }
