@@ -1,3 +1,5 @@
+package OneLineGame;
+
 import java.io.*;
 
 public class GameHelper {

@@ -1,14 +1,14 @@
-package OneLineGame;
+package FullFieldGame;
 
 import java.util.ArrayList;
 
-public class DotComGame {
+public class DotComBustGame {
 
     public static void main(String[] args) {
 
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
-        DotCom site = new DotCom();
+        DotComBust site = new DotComBust();
         int randomNum = (int) (Math.random() * 5);
 
         ArrayList<String> locations = new ArrayList<>();
