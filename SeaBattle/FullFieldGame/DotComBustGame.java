@@ -1,5 +1,7 @@
 package FullFieldGame;
 
+import OneLineGame.GameHelper;
+
 import java.util.ArrayList;
 
 public class DotComBustGame {
