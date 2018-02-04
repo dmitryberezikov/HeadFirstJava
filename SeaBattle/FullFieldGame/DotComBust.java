@@ -6,10 +6,14 @@ public class DotComBust {
 
     int numOfHits = 0;
     private ArrayList<String> locationCells;
-    String name;
+    private String name;
 
     public void setLocationCells(ArrayList<String> locs) {
         locationCells = locs;
+    }
+
+    public void setName(String givingName) {
+        name = givingName;
     }
 
     public String checkYourself(String stringGuess) {
