@@ -9,9 +9,9 @@ public class DotComBustGame {
         int numOfGuesses = 0;
         BustGameHelper helper = new BustGameHelper();
 
-        DotComBust site1 = new DotComBust();
-        DotComBust site2 = new DotComBust();
-        DotComBust site3 = new DotComBust();
+        DotComBustSite site1 = new DotComBustSite();
+        DotComBustSite site2 = new DotComBustSite();
+        DotComBustSite site3 = new DotComBustSite();
 
         int randomNum = (int) (Math.random() * 5);
 

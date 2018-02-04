@@ -2,7 +2,7 @@ package FullFieldGame;
 
 import java.util.ArrayList;
 
-public class DotComBust {
+public class DotComBustSite {
 
     int numOfHits = 0;
     private ArrayList<String> locationCells;
